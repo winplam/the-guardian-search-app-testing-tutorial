@@ -1,4 +1,4 @@
-# tutorial-the-guardian-search-app
+# Tutorial: The Guardian Search App
 
 This repo is created following the instructions from this tutorial on [how to test React components using Jest and Enzyme](#).
 1.  **unit-testing** - unit testing for Search and SearchResults components
