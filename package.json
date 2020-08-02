@@ -1,0 +1,49 @@
+{
+  "name": "the-guardian-search-app-testing-tutorial",
+  "version": "1.0.0",
+  "description": "This repo is created following the instructions from this tutorial on [how to test React components using Jest and Enzyme](#). There are 3 branches in this repo:",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest --verbose",
+    "test:watch": "jest --watchAll --verbose",
+    "test:coverage": "jest --verbose --coverage",
+    "eslint": "eslint src/"
+  },
+  "keywords": [],
+  "author": "winplam",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winplam/tutorial-the-guardian-search-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/winplam/tutorial-the-guardian-search-app/issues"
+  },
+  "homepage": "https://github.com/winplam/tutorial-the-guardian-search-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^4.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.6.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.1.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
